@@ -1,5 +1,2 @@
-geckodriver.log
-logs/
-results/
-__pycache__
 node_modules/
+vendor/
