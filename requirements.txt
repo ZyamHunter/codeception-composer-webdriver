@@ -1,0 +1,8 @@
+robotframework-seleniumlibrary==6.1.1
+robotframework==6.1.1
+robotframework-appiumlibrary==2.0.0
+selenium==4.9.0
+decorator==5.1.1
+docutils==0.20.1
+Appium-Python-Client==2.11.1
+kitchen==1.2.6

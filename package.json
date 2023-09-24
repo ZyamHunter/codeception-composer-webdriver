@@ -1,0 +1,19 @@
+{
+  "name": "robot-qa-tests",
+  "version": "1.0.0",
+  "description": "Projeto de testes regressivos com robot, selenium e appium",
+  "main": "index.js",
+  "scripts": {
+    "app:forgot_login": "robot -d ./results/app -t forgot_login ./app/Clients/Bankeiro.robot",
+    "web:login": "robot -d ./results/web -t login ./web/Clients/Bankeiro.robot",
+    "appium": "adb kill-server && adb start-server && appium --port 4723"
+  },
+  "keywords": [
+    "selenium",
+    "robot",
+    "appium",
+    "test automation"
+  ],
+  "author": "Yam Carrasco",
+  "license": "ISC"
+}
