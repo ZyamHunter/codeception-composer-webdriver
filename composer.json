@@ -1,0 +1,6 @@
+{
+    "require-dev": {
+        "codeception/module-webdriver": "^3.2",
+        "codeception/module-asserts": "^3.0"
+    }
+}
